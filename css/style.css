@@ -56,3 +56,8 @@ dt{
 .ad-container{
 	float:left;min-width:33%
 }
+
+.imagecontainer{
+	border: 2px solid white;
+	border-radius: 10px;
+}
