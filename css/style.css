@@ -6,10 +6,11 @@ html{
 body{
 	/*font-family:sans-serif;*/
 	line-height:1.5em;
-	max-width:60em;
+	/*max-width:60em;*/
 	padding:0 2%;
 	margin:auto;
 	color : white;
+	text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
 	background-color : black;
 	background-image: url("../images/nightfooter.png");
 	background-repeat: repeat-x;
@@ -60,4 +61,13 @@ dt{
 .imagecontainer{
 	border: 2px solid white;
 	border-radius: 10px;
+}
+
+#welcomecontainer{
+	display: block;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
